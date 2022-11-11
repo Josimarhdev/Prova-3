@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+body {
+
+    margin: auto;
+
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+
+    background-color: #043873;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+
+
+}
+
+#fundoimg {
+
+    width: 100vw;
+    position: relative;
+    top: 20%;
+
+}
+
+#getmore {
+
+    font-size: 4vw;
+    color: white;
+
+}
+
+#logo {
+
+    width: 3vw;
+    position: relative;
+    left: 5%;
+
+}
+
+#textologo {
+
+    color: white;
+    position: relative;
+    left: 6%;
+    font-size: 1vw;
+
+}
+
+#listaheader {
+
+    display: flex;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    left: 20%;
+
+}
+
+#listah {
+
+    margin-right: 3.5vw;
+    font-size: 1vw;
+
+}
+
+#login {
+
+    position: relative;
+
+    background-color: #FFE492;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 14px;
+    left: 25%;
+    font-size: 1vw;
+
+
+}
+
+#try {
+
+    position: relative;
+
+    background-color: #4F9CF9;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 14px;
+    left: 26%;
+    color: white;
+    font-size: 1vw;
+
+
+}
+
+
+.azul {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #043873;
+
+
+
+}
+
+#getmore {
+
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+    font-size: 4vw;
+
+
+}
+
+#projectm {
+
+    color: white;
+    font-size: 1vw;
+    position: relative;
+    bottom: 20%;
+    left: 10%;
+    font-size: 1vw;
+}
+
+#trya {
+
+    position: relative;
+
+    background-color: #4F9CF9;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 14px;
+    left: 10%;
+    bottom: 13%;
+    color: white;
+    font-size: 1vw;
+}
+
+.branco {
+
+    height: 100vh;
+    background-color: white;
+
+
+
+
+}
+
+
+#bolas {
+
+    width: 45vw;
+    position: relative;
+    top: 10%;
+    left: 5%;
+
+}
+
+#Wordtog {
+
+    font-size: 5vw;
+    font-weight: bold;
+    position: relative;
+    left: 55%;
+    bottom: 55%;
+
+
+
+}
+
+#whitesp {
+
+    position: relative;
+    bottom: 52%;
+    left: 55%;
+    font-size: 1vw;
+    width: auto;
+
+}
+
+#tryitnow {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    height: 7vh;
+    background: #4F9CF9;
+    border-radius: 6px;
+    left: 60%;
+    bottom: 45%;
+    color: white;
+    font-size: 1vw;
+
+
+}
+
+footer {
+
+    background-color: #043873;
+    width: 200vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#listafooter {
+
+    display: flex;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    left: 7%;
+    font-size: 1vw;
+
+}
+
+#listaf {
+
+    margin-right: 3.5vw;
+
+}
+
+#in {
+
+    height: 4vh;
+    position: relative;
+    left: 1250%;
+    top: 1vh;
+
+
+
+}
+
+#face {
+    position: relative;
+    left: 1200%;
+
+
+
+}
+
+#twitter {
+
+    position: relative;
+    left: 1230%;
+    width: 1vw;
+
+
+}
+
+#setatry {
+
+    width: 2.5vh;
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+    #listaheader{
+        display: none;
+    }
+
+    #login{
+        display:none;
+    }
+
+    #try{
+        display:none;
+    }
+
+}
